@@ -1,0 +1,156 @@
+[
+  {
+    "id": "s1",
+    "name": "Urban Athlete",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+    "verified": true,
+    "averageRating": 4.8,
+    "itemsSold": 342,
+    "memberSince": "2024",
+    "campus": "University of Lagos",
+    "responseTime": "< 2 hours"
+  },
+  {
+    "id": "s2",
+    "name": "Campus Gear",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80",
+    "verified": true,
+    "averageRating": 4.7,
+    "itemsSold": 218,
+    "memberSince": "2024",
+    "campus": "Obafemi Awolowo University",
+    "responseTime": "< 1 hour"
+  },
+  {
+    "id": "s3",
+    "name": "Track House",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80",
+    "verified": true,
+    "averageRating": 4.6,
+    "itemsSold": 156,
+    "memberSince": "2025",
+    "campus": "University of Ibadan",
+    "responseTime": "< 3 hours"
+  },
+  {
+    "id": "s4",
+    "name": "IronPeak",
+    "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=150&q=80",
+    "verified": true,
+    "averageRating": 4.9,
+    "itemsSold": 489,
+    "memberSince": "2023",
+    "campus": "University of Nigeria, Nsukka",
+    "responseTime": "< 1 hour"
+  },
+  {
+    "id": "s5",
+    "name": "SpikeLab",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&q=80",
+    "verified": false,
+    "averageRating": 4.4,
+    "itemsSold": 87,
+    "memberSince": "2025",
+    "campus": "Ahmadu Bello University",
+    "responseTime": "< 4 hours"
+  },
+  {
+    "id": "s6",
+    "name": "NetLine",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
+    "verified": true,
+    "averageRating": 4.7,
+    "itemsSold": 201,
+    "memberSince": "2024",
+    "campus": "University of Lagos",
+    "responseTime": "< 2 hours"
+  },
+  {
+    "id": "s7",
+    "name": "FlexFit",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&q=80",
+    "verified": true,
+    "averageRating": 4.5,
+    "itemsSold": 178,
+    "memberSince": "2024",
+    "campus": "Babcock University",
+    "responseTime": "< 2 hours"
+  },
+  {
+    "id": "s8",
+    "name": "CoreMotion",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80",
+    "verified": true,
+    "averageRating": 4.6,
+    "itemsSold": 265,
+    "memberSince": "2023",
+    "campus": "University of Ibadan",
+    "responseTime": "< 1 hour"
+  },
+  {
+    "id": "s9",
+    "name": "Rebound",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+    "verified": true,
+    "averageRating": 4.8,
+    "itemsSold": 312,
+    "memberSince": "2023",
+    "campus": "University of Lagos",
+    "responseTime": "< 1 hour"
+  },
+  {
+    "id": "s10",
+    "name": "KickForce",
+    "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=150&q=80",
+    "verified": true,
+    "averageRating": 4.7,
+    "itemsSold": 405,
+    "memberSince": "2023",
+    "campus": "Obafemi Awolowo University",
+    "responseTime": "< 2 hours"
+  },
+  {
+    "id": "s11",
+    "name": "SkyServe",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=150&q=80",
+    "verified": false,
+    "averageRating": 4.5,
+    "itemsSold": 134,
+    "memberSince": "2025",
+    "campus": "Ahmadu Bello University",
+    "responseTime": "< 3 hours"
+  },
+  {
+    "id": "s12",
+    "name": "Apex",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
+    "verified": true,
+    "averageRating": 4.5,
+    "itemsSold": 189,
+    "memberSince": "2024",
+    "campus": "University of Ibadan",
+    "responseTime": "< 2 hours"
+  },
+  {
+    "id": "s13",
+    "name": "TrackFuel",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80",
+    "verified": false,
+    "averageRating": 4.3,
+    "itemsSold": 98,
+    "memberSince": "2025",
+    "campus": "Babcock University",
+    "responseTime": "< 4 hours"
+  },
+  {
+    "id": "s14",
+    "name": "Velocity",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&q=80",
+    "verified": true,
+    "averageRating": 4.9,
+    "itemsSold": 521,
+    "memberSince": "2023",
+    "campus": "University of Lagos",
+    "responseTime": "< 1 hour"
+  }
+]

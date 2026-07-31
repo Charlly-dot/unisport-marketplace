@@ -1,0 +1,134 @@
+[
+  {
+    "id": "r1",
+    "productId": "p1",
+    "studentName": "Adaeze Okonkwo",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
+    "rating": 5,
+    "review": "Incredible grip on the court. These are hands down the best basketball shoes I have owned on campus. Worth every naira.",
+    "date": "2026-06-15",
+    "helpful": 24,
+    "verified": true
+  },
+  {
+    "id": "r2",
+    "productId": "p1",
+    "studentName": "Tunde Bakare",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+    "rating": 5,
+    "review": "Super comfortable and stylish. I wear them for both training and daily campus walks. Highly recommend!",
+    "date": "2026-05-28",
+    "helpful": 18,
+    "verified": true
+  },
+  {
+    "id": "r3",
+    "productId": "p1",
+    "studentName": "Chioma Eze",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&q=80",
+    "rating": 4,
+    "review": "Great shoes overall. Slightly narrow for wide feet but the performance is top-notch. Campus pickup was seamless.",
+    "date": "2026-05-10",
+    "helpful": 12,
+    "verified": false
+  },
+  {
+    "id": "r4",
+    "productId": "p2",
+    "studentName": "Emeka Nwosu",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80",
+    "rating": 5,
+    "review": "Perfect for our campus league games. The grip and flight are exactly what you need. Fast delivery too.",
+    "date": "2026-06-20",
+    "helpful": 15,
+    "verified": true
+  },
+  {
+    "id": "r5",
+    "productId": "p2",
+    "studentName": "Fatima Abdullahi",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+    "rating": 4,
+    "review": "Solid ball with good durability. It has held up well through several training sessions. Good value for money.",
+    "date": "2026-06-01",
+    "helpful": 9,
+    "verified": true
+  },
+  {
+    "id": "r6",
+    "productId": "p3",
+    "studentName": "Oluwaseun Adeyemi",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80",
+    "rating": 5,
+    "review": "These spikes shaved seconds off my 100m time. Lightweight and explosive. Best track spikes on the market.",
+    "date": "2026-06-12",
+    "helpful": 20,
+    "verified": true
+  },
+  {
+    "id": "r7",
+    "productId": "p4",
+    "studentName": "Amara Obi",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80",
+    "rating": 4,
+    "review": "Excellent compression tee. Keeps you cool during heavy lifts. The fabric quality is premium and it fits perfectly.",
+    "date": "2026-05-22",
+    "helpful": 11,
+    "verified": true
+  },
+  {
+    "id": "r8",
+    "productId": "p6",
+    "studentName": "Kemi Adekunle",
+    "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=150&q=80",
+    "rating": 5,
+    "review": "Spacious and well-organized. Fits all my tennis gear plus campus essentials. The quality is outstanding.",
+    "date": "2026-06-08",
+    "helpful": 14,
+    "verified": true
+  },
+  {
+    "id": "r9",
+    "productId": "p9",
+    "studentName": "Daniel Ogundimu",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&q=80",
+    "rating": 5,
+    "review": "This jersey is fire. Wore it to our campus basketball tournament and got so many compliments. Breathable and comfortable.",
+    "date": "2026-06-18",
+    "helpful": 22,
+    "verified": true
+  },
+  {
+    "id": "r10",
+    "productId": "p10",
+    "studentName": "Ifeoma Chukwu",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&q=80",
+    "rating": 4,
+    "review": "Great cleats for the price. Good grip on grass and very durable. Sizing runs true.",
+    "date": "2026-05-30",
+    "helpful": 8,
+    "verified": true
+  },
+  {
+    "id": "r11",
+    "productId": "p5",
+    "studentName": "Yusuf Ibrahim",
+    "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=150&q=80",
+    "rating": 4,
+    "review": "Good volleyball shoes with solid ankle support. The gently used condition was actually like new. Happy with the purchase.",
+    "date": "2026-06-05",
+    "helpful": 7,
+    "verified": true
+  },
+  {
+    "id": "r12",
+    "productId": "p7",
+    "studentName": "Ngozi Iheanacho",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=150&q=80",
+    "rating": 5,
+    "review": "Perfect running shorts. Lightweight, breathable, and the pockets are deep enough for my phone. Love them!",
+    "date": "2026-06-22",
+    "helpful": 16,
+    "verified": true
+  }
+]
