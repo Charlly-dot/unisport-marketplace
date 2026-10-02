@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# UniSport Marketplace
 
-## Getting Started
+UniSport is a campus-first marketplace for buying and selling sportswear, equipment, footwear, and pre-loved gear. It brings product discovery, a local cart and wishlist, account flows, checkout, and adaptable payment providers into one Next.js application.
 
-First, run the development server:
+## Highlights
+
+- Editorial UniSport design system with light and optional dark modes
+- Persistent theme choice, available from the sun/moon control in the navigation
+- Browse, search, filter, sort, and share sports products
+- Product details with sizes, quantity selection, reviews, seller information, and related gear
+- Local cart, wishlist, coupon support, and campus-pickup option
+- Account registration, sign-in, profile, order, wishlist, seller, and dashboard screens
+- Multi-step checkout with mock, Paystack, or Flutterwave payment support
+- Responsive interface built for phones through desktop screens
+
+## Technology
+
+- Next.js 16 with the App Router
+- React 19 and TypeScript
+- Tailwind CSS v4
+- Framer Motion and Lucide icons
+- JSON product data and a local JSON store for users and orders
+
+## Run locally
+
+### Prerequisites
+
+- Node.js 20 or newer
+- npm 10 or newer
+
+### Setup
+
+```bash
+git clone https://github.com/Charlly-dot/unisport-marketplace.git
+cd unisport-marketplace
+npm install
+```
+
+Create your local environment file from the example:
+
+```powershell
+Copy-Item .env.example .env
+```
+
+The default `mock` payment provider needs no additional credentials. Then start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Commands
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Start the local development server |
+| `npm run lint` | Check the codebase with ESLint |
+| `npm run build` | Create a production build |
+| `npm run start` | Serve the production build |
 
-## Learn More
+## Theme
 
-To learn more about Next.js, take a look at the following resources:
+UniSport starts in light mode. Use the moon icon in the navigation to switch to dark mode. The setting is saved in the browser, so visitors keep their preference when they return.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Payments and environment variables
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Copy `.env.example` to `.env` and configure the provider that matches your environment:
 
-## Deploy on Vercel
+| Variable | Description |
+| --- | --- |
+| `PAYMENT_PROVIDER` | `mock`, `paystack`, or `flutterwave` |
+| `PAYSTACK_SECRET_KEY` | Paystack secret key when using Paystack |
+| `FLUTTERWAVE_SECRET_KEY` | Flutterwave secret key when using Flutterwave |
+| `NEXT_PUBLIC_APP_URL` | Application URL used for payment redirects |
+| `AUTH_SECRET` | Long random secret used to sign authentication tokens |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Never commit `.env` or live payment secrets.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Routes
+
+| Route | Description |
+| --- | --- |
+| `/` | UniSport landing page |
+| `/shop` | Product catalog with search and filters |
+| `/product/[slug]` | Individual product page |
+| `/cart` | Shopping cart |
+| `/checkout` | Secure multi-step checkout |
+| `/login`, `/register` | Account access |
+| `/profile`, `/orders`, `/wishlist` | Account management |
+| `/sell`, `/dashboard` | Seller experience |
+
+## Project structure
+
+```text
+app/          Routes, layouts, API handlers, and global styles
+components/   Reusable interface, shop, cart, checkout, and account components
+context/      Cart and authentication state
+data/         Product, review, and seller data
+lib/          Product, checkout, auth, and utility logic
+services/     JSON store and payment-provider adapters
+```
+
+For a deeper technical overview, see [ARCHITECTURE.md](ARCHITECTURE.md).
