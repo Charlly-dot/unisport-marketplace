@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f6f4ee;
+  --foreground: #202024;
 }
 
 @theme inline {
@@ -12,15 +12,52 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* UniSport's shared visual language: paper, ink, lime, coral, and cobalt. */
+.unisport-app [class*="bg-slate-950"] { background-color: #f6f4ee !important; }
+.unisport-app [class*="bg-slate-900"] { background-color: #fffdf7 !important; }
+.unisport-app [class*="bg-slate-800"] { background-color: #ebe8df !important; }
+.unisport-app [class*="border-slate"] { border-color: rgb(32 32 36 / 16%) !important; }
+.unisport-app [class~="text-white"],
+.unisport-app [class~="text-slate-100"],
+.unisport-app [class~="text-slate-200"],
+.unisport-app [class~="text-slate-300"] { color: #202024 !important; }
+.unisport-app [class~="text-slate-400"] { color: #59585d !important; }
+.unisport-app [class~="text-slate-500"],
+.unisport-app [class~="text-slate-600"] { color: #77757a !important; }
+.unisport-app [class~="text-sky-400"],
+.unisport-app [class~="text-sky-300"] { color: #3757df !important; }
+.unisport-app [class*="bg-sky-500"] { background-color: #d8ff35 !important; }
+.unisport-app [class*="border-sky-400"],
+.unisport-app [class*="border-sky-500"] { border-color: #3757df !important; }
+.unisport-app [class*="ring-sky"] { --tw-ring-color: rgb(55 87 223 / 30%) !important; }
+.unisport-app input,
+.unisport-app select,
+.unisport-app textarea { accent-color: #3757df; }
+
+/* Dark mode uses the same accents on a deep ink canvas. */
+.theme-dark { --background: #202024; --foreground: #f6f4ee; }
+.theme-dark [class*="bg-slate-950"] { background-color: #202024 !important; }
+.theme-dark [class*="bg-slate-900"] { background-color: #29292f !important; }
+.theme-dark [class*="bg-slate-800"] { background-color: #35353c !important; }
+.theme-dark [class*="bg-[#f6f4ee]"] { background-color: #202024 !important; }
+.theme-dark [class*="bg-[#fffdf7]"] { background-color: #29292f !important; }
+.theme-dark [class*="bg-[#ebe8df]"] { background-color: #35353c !important; }
+.theme-dark [class*="border-[#202024]"] { border-color: rgb(246 244 238 / 20%) !important; }
+.theme-dark [class~="text-white"],
+.theme-dark [class~="text-slate-100"],
+.theme-dark [class~="text-slate-200"],
+.theme-dark [class~="text-slate-300"],
+.theme-dark [class*="text-[#202024]"] { color: #f6f4ee !important; }
+.theme-dark [class~="text-slate-400"],
+.theme-dark [class*="text-[#55545a]"] { color: #c4c2bc !important; }
+.theme-dark [class~="text-slate-500"],
+.theme-dark [class~="text-slate-600"],
+.theme-dark [class*="text-[#77757a]"] { color: #a7a5a1 !important; }
+.theme-dark [class*="bg-[#d8ff35]"][class*="text-[#202024]"],
+.theme-dark [class*="bg-[#ff684f]"][class*="text-[#202024]"] { color: #202024 !important; }

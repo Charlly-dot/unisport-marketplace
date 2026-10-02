@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="min-h-screen overflow-x-hidden bg-slate-950 text-slate-100 antialiased">
+      <body className="unisport-app min-h-screen overflow-x-hidden bg-[#f6f4ee] text-[#202024] antialiased">
         <AuthProvider>
           <CartProvider>
             <Navbar />

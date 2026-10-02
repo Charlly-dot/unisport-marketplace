@@ -10,6 +10,7 @@ import { useCart } from "@/context/CartContext";
 import { useWishlist } from "@/hooks/useWishlist";
 import CartDrawer from "@/components/cart/CartDrawer";
 import UserMenu from "@/components/layout/UserMenu";
+import ThemeToggle from "@/components/layout/ThemeToggle";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -43,10 +44,10 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="sticky top-0 z-40 border-b border-slate-800/60 bg-slate-950/95 backdrop-blur-xl">
+      <header className="sticky top-0 z-40 border-b border-[#202024]/15 bg-[#f6f4ee]/95 text-[#202024] backdrop-blur-xl">
         <Container className="flex items-center justify-between gap-4 py-4">
-          <Link href="/" className="text-lg font-semibold tracking-tight text-white">
-            UniSport
+          <Link href="/" className="text-lg font-black tracking-[-0.07em] text-[#202024]">
+            UNISPORT<span className="text-[#ff684f]">•</span>
           </Link>
 
           <nav className="hidden items-center gap-6 md:flex">
@@ -54,7 +55,7 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium text-slate-300 transition hover:text-white"
+                className="text-sm font-bold text-[#202024]/70 transition hover:text-[#3757df]"
               >
                 {link.label}
               </Link>
@@ -126,6 +127,7 @@ export default function Navbar() {
               )}
             </button>
 
+            <ThemeToggle />
             <UserMenu />
           </div>
 

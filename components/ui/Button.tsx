@@ -3,9 +3,9 @@ import { cn } from "@/lib/utils";
 import type { ButtonHTMLAttributes } from "react";
 
 const variants = {
-  default: "bg-sky-500 text-white hover:bg-sky-400",
-  secondary: "bg-slate-800 text-slate-100 hover:bg-slate-700",
-  ghost: "bg-transparent text-slate-200 hover:bg-slate-900/70",
+  default: "bg-[#d8ff35] text-[#202024] hover:bg-[#c8ec2c]",
+  secondary: "border border-[#202024]/20 bg-[#fffdf7] text-[#202024] hover:bg-[#ebe8df]",
+  ghost: "bg-transparent text-[#202024] hover:bg-[#ebe8df]",
 };
 
 const sizes = {
@@ -22,7 +22,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 export function Button({ className, variant = "default", size = "default", href, children, ...props }: ButtonProps) {
   const classNames = cn(
-    "inline-flex items-center justify-center gap-2 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-400 disabled:cursor-not-allowed disabled:opacity-50",
+    "inline-flex items-center justify-center gap-2 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3757df] disabled:cursor-not-allowed disabled:opacity-50",
     variants[variant],
     sizes[size],
     className,

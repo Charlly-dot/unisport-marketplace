@@ -6,10 +6,10 @@ interface BadgeProps extends HTMLAttributes<HTMLSpanElement> {
 }
 
 const badgeStyles = {
-  default: "bg-slate-800 text-slate-200",
-  secondary: "bg-slate-900 text-slate-300",
-  success: "bg-emerald-500/15 text-emerald-300",
-  warning: "bg-amber-500/15 text-amber-300",
+  default: "bg-[#d8ff35] text-[#202024]",
+  secondary: "bg-[#ebe8df] text-[#202024]",
+  success: "bg-emerald-500/15 text-emerald-700",
+  warning: "bg-[#ff684f]/20 text-[#9a2d1e]",
 };
 
 export function Badge({ className, variant = "default", ...props }: BadgeProps) {
